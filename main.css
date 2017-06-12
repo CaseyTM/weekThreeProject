@@ -4,8 +4,9 @@
   display: flex;
   flex-direction: column;
   height: 90vw;
+  max-height: 90vw;
   width: 72vw;
-  max-width: 72vw;
+  max-width: ;
 }
 .content-row {
   height: 18vw;
