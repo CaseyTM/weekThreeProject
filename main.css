@@ -1,29 +1,39 @@
-/*colors -
-  Main Green: #61b34f
-  Light Green: #82c276
-*/
+/*colors -Main Green: #61b34f Light Green: #82c276*/
 
 .container {
   display: flex;
   flex-direction: column;
-  height: 60vw;
-  width: 48vw;
-  border: 1px solid black;
-  background-color: #61b34f;
+  height: 90vw;
+  width: 72vw;
+  max-width: 72vw;
 }
-
 .content-row {
-  height: 12vw;
+  height: 18vw;
   display: flex;
 }
 
-.text-content {
-  border: .05em solid white;
-  flex-grow: 3;
-}
-
 .squares {
-  border: .05em solid white;
-  /*flex-grow: 0;*/
-  width: 12vw;
+background-color: #61b34f;
+}
+#text-display{
+  background-color: #61b34f;
+  width: 54vw;
+}
+.operators{
+  background-color: #82c276;
+  color: black;
+}
+.operators,.squares{
+  width: 18vw;
+
+}
+#text-display,.operators,.squares{
+  outline: .5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 44px;
+}
+#text-display, .functional{
+  color: white;
 }
