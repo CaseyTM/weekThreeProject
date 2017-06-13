@@ -1,4 +1,9 @@
 /*colors -Main Green: #61b34f Light Green: #82c276*/
+body{
+  display: flex;
+  justify-content: center;
+
+}
 
 .container {
   display: flex;
@@ -10,22 +15,33 @@
 }
 .content-row {
   height: 18vw;
+  max-height: 120px;
+  max-width: 480px;
   display: flex;
 }
 
 .squares {
 background-color: #61b34f;
 }
+.squares:hover{
+  background-color: #82c276;
+  color: black;
+}
 #text-display{
   background-color: #61b34f;
   width: 54vw;
+  max-width: 360px;
 }
 .operators{
   background-color: #82c276;
   color: black;
 }
+.operators:hover{
+  color: white;
+}
 .operators,.squares{
   width: 18vw;
+  max-width: 120px;
 
 }
 #text-display,.operators,.squares{
